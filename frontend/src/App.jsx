@@ -1,13 +1,18 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import About from './assets/components/About';
+import Contact from './assets/components/Contact';
+import Header from './assets/components/Header';
+import Projects from './assets/components/Projects';
+import Skills from './assets/components/Skills';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Samama Abbas</h1>
-      <h2>BSCS</h2>
+    <div className="w-full">
+      <Header />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }
